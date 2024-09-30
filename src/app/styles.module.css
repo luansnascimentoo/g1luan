@@ -1,0 +1,83 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .subheading { /* Aqui substituímos o h2 por uma classe */
+    margin-top: 40px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .formContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
+  .employeeList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .employeeItem {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .employeeDetails {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .employeeDetailItem {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .detailsText {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
